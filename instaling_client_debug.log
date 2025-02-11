@@ -1,0 +1,1545 @@
+
+2025-01-24 22:27:18,572 - INFO - Loaded 3 solved words from 'solved_words.json'.
+2025-01-24 22:34:37,187 - INFO - Loaded 1 accounts from 'accounts.json'.
+2025-01-24 22:34:37,187 - INFO - InstalingClient initialized with chance=20, min_delay=1, max_delay=1
+2025-01-24 22:34:37,189 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 22:34:37,230 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 22:34:37,246 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 22:34:37,472 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 22:34:37,472 - INFO - Login request sent successfully.
+2025-01-24 22:34:37,472 - INFO - Logged in successfully as student_id=2007164
+2025-01-24 22:34:37,474 - INFO - Session completed: True
+2025-01-24 22:34:37,487 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 22:34:37,487 - INFO - Session initiated successfully.
+2025-01-24 22:34:37,503 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 22:34:37,503 - INFO - Words to repeat retrieved successfully.
+2025-01-24 22:34:37,503 - INFO - Retrieved 10 words to repeat.
+2025-01-24 22:34:37,503 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:34:38,519 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:34:38,519 - INFO - Next word request sent successfully.
+2025-01-24 22:34:38,519 - DEBUG - Processing word ID 185947: runway
+2025-01-24 22:34:38,539 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:34:38,539 - INFO - Answer saved for word ID 185947: runawy
+2025-01-24 22:34:38,539 - DEBUG - Save answer response for word ID 185947: {'id': '185947', 'speech_part': 'rzeczownik', 'usage_example': 'Many models are complaining about walking down the ______.', 'translations': 'wybieg', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'runway.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'runway'}
+2025-01-24 22:34:38,540 - WARNING - Mistake made on word ID 185947: runawy
+2025-01-24 22:34:38,540 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:34:39,553 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:34:39,553 - INFO - Next word request sent successfully.
+2025-01-24 22:34:39,553 - DEBUG - Processing word ID 185947: runway
+2025-01-24 22:34:39,573 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:34:39,573 - INFO - Answer saved for word ID 185947: runay
+2025-01-24 22:34:39,573 - DEBUG - Save answer response for word ID 185947: {'id': '185947', 'word': 'runway', 'speech_part': 'rzeczownik', 'usage_example': 'Many models are complaining about walking down the runway.', 'translations': 'wybieg', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'runway.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'runway'}
+2025-01-24 22:34:39,573 - WARNING - Mistake made on word ID 185947: runay
+2025-01-24 22:34:39,573 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:34:40,588 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:34:40,588 - INFO - Next word request sent successfully.
+2025-01-24 22:34:40,588 - DEBUG - Processing word ID 185952: crime series
+2025-01-24 22:34:40,609 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:34:40,609 - INFO - Answer saved for word ID 185952: crime sries
+2025-01-24 22:34:40,609 - DEBUG - Save answer response for word ID 185952: {'id': '185952', 'speech_part': 'rzeczownik', 'usage_example': 'Sherlock Holmes is a popular _____ ______ known all over the world.', 'translations': 'serial kryminalny', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'crime series.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'crime series'}
+2025-01-24 22:34:40,609 - WARNING - Mistake made on word ID 185952: crime sries
+2025-01-24 22:34:40,610 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:34:41,624 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:34:41,624 - INFO - Next word request sent successfully.
+2025-01-24 22:34:41,624 - DEBUG - Processing word ID 185952: crime series
+2025-01-24 22:34:41,644 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:34:41,644 - INFO - Answer saved for word ID 185952: crime series
+2025-01-24 22:34:41,644 - DEBUG - Save answer response for word ID 185952: {'id': '185952', 'word': 'crime series', 'speech_part': 'rzeczownik', 'usage_example': 'Sherlock Holmes is a popular crime series known all over the world.', 'translations': 'serial kryminalny', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'crime series.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'crime series'}
+2025-01-24 22:34:41,644 - INFO - Answered correctly on word ID 185952: crime series
+2025-01-24 22:34:41,645 - INFO - Word ID 185952 added to solved_words.
+2025-01-24 22:34:41,645 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:34:42,660 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:34:42,660 - INFO - Next word request sent successfully.
+2025-01-24 22:34:42,660 - DEBUG - Processing word ID 185950: national newspaper
+2025-01-24 22:34:42,681 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:34:42,681 - INFO - Answer saved for word ID 185950: national newspaper
+2025-01-24 22:34:42,681 - DEBUG - Save answer response for word ID 185950: {'id': '185950', 'word': 'national newspaper', 'speech_part': 'rzeczownik', 'usage_example': 'Have you seen the front page of the national newspaper?', 'translations': 'gazeta ogï¿½lnokrajowa', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'national newspaper.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'national newspaper'}
+2025-01-24 22:34:42,682 - INFO - Answered correctly on word ID 185950: national newspaper
+2025-01-24 22:34:42,682 - INFO - Word ID 185950 added to solved_words.
+2025-01-24 22:34:42,682 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:34:43,698 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:34:43,698 - INFO - Next word request sent successfully.
+2025-01-24 22:34:43,698 - DEBUG - Processing word ID 183705: get hurt
+2025-01-24 22:34:43,716 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:34:43,717 - INFO - Answer saved for word ID 183705: get hurt
+2025-01-24 22:34:43,717 - DEBUG - Save answer response for word ID 183705: {'id': '183705', 'word': 'get hurt', 'speech_part': 'wyraï¿½enie', 'usage_example': 'I got hurt because of not warming up earlier.', 'translations': 'zraniï¿½ siï¿½, doznaï¿½ kontuzji', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'get hurt.mp3', 'global_id': None, 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'got hurt'}
+2025-01-24 22:34:43,717 - INFO - Answered correctly on word ID 183705: get hurt
+2025-01-24 22:34:43,717 - INFO - Word ID 183705 added to solved_words.
+2025-01-24 22:34:43,717 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:32,053 - INFO - Loaded 1 accounts from 'accounts.json'.
+2025-01-24 22:41:32,053 - INFO - InstalingClient initialized with chance=20, min_delay=1, max_delay=1
+2025-01-24 22:41:32,055 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 22:41:32,097 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 22:41:32,113 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 22:41:32,353 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 22:41:32,354 - INFO - Login request sent successfully.
+2025-01-24 22:41:32,354 - INFO - Logged in successfully as student_id=2007164
+2025-01-24 22:41:32,356 - INFO - Session completed: True
+2025-01-24 22:41:32,369 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 22:41:32,369 - INFO - Session initiated successfully.
+2025-01-24 22:41:32,384 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 22:41:32,384 - INFO - Words to repeat retrieved successfully.
+2025-01-24 22:41:32,384 - INFO - Retrieved 10 words to repeat.
+2025-01-24 22:41:32,384 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:33,399 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:33,400 - INFO - Next word request sent successfully.
+2025-01-24 22:41:33,400 - DEBUG - Processing word ID 185947: runway
+2025-01-24 22:41:33,418 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:33,418 - INFO - Answer saved for word ID 185947: runwayj
+2025-01-24 22:41:33,419 - DEBUG - Save answer response for word ID 185947: {'id': '185947', 'speech_part': 'rzeczownik', 'usage_example': 'Many models are complaining about walking down the ______.', 'translations': 'wybieg', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'runway.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'runway'}
+2025-01-24 22:41:33,419 - WARNING - Mistake made on word ID 185947: runwayj
+2025-01-24 22:41:33,419 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:34,432 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:34,433 - INFO - Next word request sent successfully.
+2025-01-24 22:41:34,433 - DEBUG - Processing word ID 185947: runway
+2025-01-24 22:41:34,454 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:34,455 - INFO - Answer saved for word ID 185947: runway
+2025-01-24 22:41:34,455 - DEBUG - Save answer response for word ID 185947: {'id': '185947', 'word': 'runway', 'speech_part': 'rzeczownik', 'usage_example': 'Many models are complaining about walking down the runway.', 'translations': 'wybieg', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'runway.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'runway'}
+2025-01-24 22:41:34,455 - INFO - Answered correctly on word ID 185947: runway
+2025-01-24 22:41:34,455 - INFO - Word ID 185947 added to solved_words.
+2025-01-24 22:41:34,455 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:35,471 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:35,472 - INFO - Next word request sent successfully.
+2025-01-24 22:41:35,472 - DEBUG - Processing word ID 185944: big top
+2025-01-24 22:41:35,490 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:35,491 - INFO - Answer saved for word ID 185944: big top
+2025-01-24 22:41:35,491 - DEBUG - Save answer response for word ID 185944: {'id': '185944', 'word': 'big top', 'speech_part': 'rzeczownik', 'usage_example': 'A big top is a main tent in circus.', 'translations': 'namiot cyrkowy', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'big top.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'big top'}
+2025-01-24 22:41:35,491 - INFO - Answered correctly on word ID 185944: big top
+2025-01-24 22:41:35,491 - INFO - Word ID 185944 added to solved_words.
+2025-01-24 22:41:35,491 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:37,213 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:37,214 - INFO - Next word request sent successfully.
+2025-01-24 22:41:37,214 - WARNING - Polish translation not found for word_id 10323.
+2025-01-24 22:41:37,214 - DEBUG - Processing word ID 10323: Default Polish Translation
+2025-01-24 22:41:37,228 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:37,228 - INFO - Answer saved for word ID 10323: Default Polish Translationz
+2025-01-24 22:41:37,228 - DEBUG - Save answer response for word ID 10323: {'id': '10323', 'word': 'fourteen', 'speech_part': 'liczebnik', 'usage_example': 'Seven plus seven make fourteen.', 'translations': 'czternaœcie', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': '1847', 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': 'A1', 'cefr_approx': 'A1', 'audio_file_available': '1', 'audio_filename': 'fourteen.mp3', 'global_id': '10323', 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'fourteen'}
+2025-01-24 22:41:37,228 - WARNING - Mistake made on word ID 10323: Default Polish Translationz
+2025-01-24 22:41:37,229 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:38,245 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:38,246 - INFO - Next word request sent successfully.
+2025-01-24 22:41:38,246 - DEBUG - Processing word ID 185952: crime series
+2025-01-24 22:41:38,267 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:38,268 - INFO - Answer saved for word ID 185952: crime serieso
+2025-01-24 22:41:38,268 - DEBUG - Save answer response for word ID 185952: {'id': '185952', 'speech_part': 'rzeczownik', 'usage_example': 'Sherlock Holmes is a popular _____ ______ known all over the world.', 'translations': 'serial kryminalny', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'crime series.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'crime series'}
+2025-01-24 22:41:38,268 - WARNING - Mistake made on word ID 185952: crime serieso
+2025-01-24 22:41:38,268 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:39,282 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:39,282 - INFO - Next word request sent successfully.
+2025-01-24 22:41:39,282 - DEBUG - Processing word ID 185952: crime series
+2025-01-24 22:41:39,301 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:39,301 - INFO - Answer saved for word ID 185952: crime series
+2025-01-24 22:41:39,301 - DEBUG - Save answer response for word ID 185952: {'id': '185952', 'word': 'crime series', 'speech_part': 'rzeczownik', 'usage_example': 'Sherlock Holmes is a popular crime series known all over the world.', 'translations': 'serial kryminalny', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'crime series.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'crime series'}
+2025-01-24 22:41:39,301 - INFO - Answered correctly on word ID 185952: crime series
+2025-01-24 22:41:39,301 - INFO - Word ID 185952 added to solved_words.
+2025-01-24 22:41:39,302 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:40,319 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:40,320 - INFO - Next word request sent successfully.
+2025-01-24 22:41:40,320 - DEBUG - Processing word ID 186149: reviewer
+2025-01-24 22:41:40,338 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:40,338 - INFO - Answer saved for word ID 186149: reviewer
+2025-01-24 22:41:40,338 - DEBUG - Save answer response for word ID 186149: {'id': '186149', 'word': 'reviewer', 'speech_part': 'rzeczownik', 'usage_example': 'I see myself in the future as a journal reviewer.', 'translations': 'krytyk, recenzent', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'reviewer.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'reviewer'}
+2025-01-24 22:41:40,339 - INFO - Answered correctly on word ID 186149: reviewer
+2025-01-24 22:41:40,339 - INFO - Word ID 186149 added to solved_words.
+2025-01-24 22:41:40,339 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:41,353 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:41,354 - INFO - Next word request sent successfully.
+2025-01-24 22:41:41,354 - DEBUG - Processing word ID 185946: card trick
+2025-01-24 22:41:41,376 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:41,376 - INFO - Answer saved for word ID 185946: card trick
+2025-01-24 22:41:41,376 - DEBUG - Save answer response for word ID 185946: {'id': '185946', 'word': 'card trick', 'speech_part': 'rzeczownik', 'usage_example': 'Over the years, I have come up with many card trick ideas.', 'translations': 'sztuczka karciana', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'card trick.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'card trick'}
+2025-01-24 22:41:41,377 - INFO - Answered correctly on word ID 185946: card trick
+2025-01-24 22:41:41,377 - INFO - Word ID 185946 added to solved_words.
+2025-01-24 22:41:41,377 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:42,834 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:42,835 - INFO - Next word request sent successfully.
+2025-01-24 22:41:42,835 - WARNING - Polish translation not found for word_id 1048.
+2025-01-24 22:41:42,835 - DEBUG - Processing word ID 1048: Default Polish Translation
+2025-01-24 22:41:42,849 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:42,849 - INFO - Answer saved for word ID 1048: Default Polish Translation
+2025-01-24 22:41:42,849 - DEBUG - Save answer response for word ID 1048: {'id': '1048', 'word': 'cloudy', 'speech_part': 'przymiotnik', 'usage_example': "It's getting cloudy and cold.", 'translations': 'pochmurno', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': '1031', 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': 'A2', 'cefr_approx': 'A1', 'audio_file_available': '1', 'audio_filename': 'cloudy.mp3', 'global_id': '1048', 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'cloudy'}
+2025-01-24 22:41:42,849 - INFO - Answered correctly on word ID 1048: Default Polish Translation
+2025-01-24 22:41:42,849 - INFO - Word ID 1048 not added to solved_words. Grade: 0
+2025-01-24 22:41:42,849 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:43,864 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:43,864 - INFO - Next word request sent successfully.
+2025-01-24 22:41:43,865 - DEBUG - Processing word ID 183746: get muddy
+2025-01-24 22:41:43,883 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:43,883 - INFO - Answer saved for word ID 183746: get muddy
+2025-01-24 22:41:43,883 - DEBUG - Save answer response for word ID 183746: {'id': '183746', 'word': 'get muddy', 'speech_part': 'wyra¿enie', 'usage_example': 'You can often get muddy on an obstacle course.', 'translations': 'ubrudziæ siê b³otem', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'get muddy.mp3', 'global_id': None, 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'get muddy'}
+2025-01-24 22:41:43,884 - INFO - Answered correctly on word ID 183746: get muddy
+2025-01-24 22:41:43,884 - INFO - Word ID 183746 added to solved_words.
+2025-01-24 22:41:43,884 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:44,899 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:44,899 - INFO - Next word request sent successfully.
+2025-01-24 22:41:44,899 - DEBUG - Processing word ID 183705: get hurt
+2025-01-24 22:41:44,918 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:44,918 - INFO - Answer saved for word ID 183705: get hurt
+2025-01-24 22:41:44,919 - DEBUG - Save answer response for word ID 183705: {'id': '183705', 'word': 'get hurt', 'speech_part': 'wyra¿enie', 'usage_example': 'I got hurt because of not warming up earlier.', 'translations': 'zraniæ siê, doznaæ kontuzji', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'get hurt.mp3', 'global_id': None, 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'got hurt'}
+2025-01-24 22:41:44,919 - INFO - Answered correctly on word ID 183705: get hurt
+2025-01-24 22:41:44,919 - INFO - Word ID 183705 added to solved_words.
+2025-01-24 22:41:44,919 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:45,934 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:45,934 - INFO - Next word request sent successfully.
+2025-01-24 22:41:45,934 - DEBUG - Processing word ID 185950: national newspaper
+2025-01-24 22:41:45,954 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:41:45,954 - INFO - Answer saved for word ID 185950: national newspaper
+2025-01-24 22:41:45,954 - DEBUG - Save answer response for word ID 185950: {'id': '185950', 'word': 'national newspaper', 'speech_part': 'rzeczownik', 'usage_example': 'Have you seen the front page of the national newspaper?', 'translations': 'gazeta ogólnokrajowa', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'national newspaper.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'national newspaper'}
+2025-01-24 22:41:45,955 - INFO - Answered correctly on word ID 185950: national newspaper
+2025-01-24 22:41:45,955 - INFO - Word ID 185950 added to solved_words.
+2025-01-24 22:41:45,955 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:41:46,976 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:41:46,976 - INFO - Next word request sent successfully.
+2025-01-24 22:41:46,976 - INFO - Session completed. Workdays this week: 2
+2025-01-24 22:41:46,978 - INFO - Loaded 3 solved words from 'solved_words.json'.
+2025-01-24 22:43:02,192 - INFO - Loaded 1 accounts from 'accounts.json'.
+2025-01-24 22:43:02,192 - INFO - InstalingClient initialized with chance=20, min_delay=1, max_delay=1
+2025-01-24 22:43:02,193 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 22:43:02,235 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 22:43:02,252 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 22:43:02,472 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 22:43:02,472 - INFO - Login request sent successfully.
+2025-01-24 22:43:02,472 - INFO - Logged in successfully as student_id=2007164
+2025-01-24 22:43:02,474 - INFO - Session completed: True
+2025-01-24 22:43:02,486 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 22:43:02,486 - INFO - Session initiated successfully.
+2025-01-24 22:43:02,504 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 22:43:02,504 - INFO - Words to repeat retrieved successfully.
+2025-01-24 22:43:02,504 - INFO - Retrieved 10 words to repeat.
+2025-01-24 22:43:02,504 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:03,521 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:03,521 - INFO - Next word request sent successfully.
+2025-01-24 22:43:03,521 - DEBUG - Processing word ID 185947: runway
+2025-01-24 22:43:03,541 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:03,541 - INFO - Answer saved for word ID 185947: rnway
+2025-01-24 22:43:03,541 - DEBUG - Save answer response for word ID 185947: {'id': '185947', 'speech_part': 'rzeczownik', 'usage_example': 'Many models are complaining about walking down the ______.', 'translations': 'wybieg', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'runway.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'runway'}
+2025-01-24 22:43:03,541 - WARNING - Mistake made on word ID 185947: rnway
+2025-01-24 22:43:03,541 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:04,554 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:04,554 - INFO - Next word request sent successfully.
+2025-01-24 22:43:04,554 - DEBUG - Processing word ID 185947: runway
+2025-01-24 22:43:04,576 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:04,576 - INFO - Answer saved for word ID 185947: runway
+2025-01-24 22:43:04,576 - DEBUG - Save answer response for word ID 185947: {'id': '185947', 'word': 'runway', 'speech_part': 'rzeczownik', 'usage_example': 'Many models are complaining about walking down the runway.', 'translations': 'wybieg', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'runway.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'runway'}
+2025-01-24 22:43:04,576 - INFO - Answered correctly on word ID 185947: runway
+2025-01-24 22:43:04,576 - INFO - Word ID 185947 added to solved_words.
+2025-01-24 22:43:04,577 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:05,595 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:05,595 - INFO - Next word request sent successfully.
+2025-01-24 22:43:05,595 - DEBUG - Processing word ID 185944: big top
+2025-01-24 22:43:05,611 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:05,611 - INFO - Answer saved for word ID 185944: big otp
+2025-01-24 22:43:05,611 - DEBUG - Save answer response for word ID 185944: {'id': '185944', 'speech_part': 'rzeczownik', 'usage_example': 'A ___ ___ is a main tent in circus.', 'translations': 'namiot cyrkowy', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'big top.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'big top'}
+2025-01-24 22:43:05,611 - WARNING - Mistake made on word ID 185944: big otp
+2025-01-24 22:43:05,611 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:06,624 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:06,624 - INFO - Next word request sent successfully.
+2025-01-24 22:43:06,624 - DEBUG - Processing word ID 185944: big top
+2025-01-24 22:43:06,648 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:06,648 - INFO - Answer saved for word ID 185944: big topx
+2025-01-24 22:43:06,648 - DEBUG - Save answer response for word ID 185944: {'id': '185944', 'word': 'big top', 'speech_part': 'rzeczownik', 'usage_example': 'A big top is a main tent in circus.', 'translations': 'namiot cyrkowy', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'big top.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'big top'}
+2025-01-24 22:43:06,648 - WARNING - Mistake made on word ID 185944: big topx
+2025-01-24 22:43:06,648 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:07,663 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:07,663 - INFO - Next word request sent successfully.
+2025-01-24 22:43:07,663 - DEBUG - Processing word ID 185952: crime series
+2025-01-24 22:43:07,682 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:07,682 - INFO - Answer saved for word ID 185952: crime series
+2025-01-24 22:43:07,682 - DEBUG - Save answer response for word ID 185952: {'id': '185952', 'word': 'crime series', 'speech_part': 'rzeczownik', 'usage_example': 'Sherlock Holmes is a popular crime series known all over the world.', 'translations': 'serial kryminalny', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'crime series.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'crime series'}
+2025-01-24 22:43:07,683 - INFO - Answered correctly on word ID 185952: crime series
+2025-01-24 22:43:07,683 - INFO - Word ID 185952 added to solved_words.
+2025-01-24 22:43:07,683 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:08,699 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:08,699 - INFO - Next word request sent successfully.
+2025-01-24 22:43:08,699 - DEBUG - Processing word ID 185946: card trick
+2025-01-24 22:43:08,719 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:08,719 - INFO - Answer saved for word ID 185946: card trick
+2025-01-24 22:43:08,719 - DEBUG - Save answer response for word ID 185946: {'id': '185946', 'word': 'card trick', 'speech_part': 'rzeczownik', 'usage_example': 'Over the years, I have come up with many card trick ideas.', 'translations': 'sztuczka karciana', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'card trick.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'card trick'}
+2025-01-24 22:43:08,720 - INFO - Answered correctly on word ID 185946: card trick
+2025-01-24 22:43:08,720 - INFO - Word ID 185946 added to solved_words.
+2025-01-24 22:43:08,720 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:10,329 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:10,330 - INFO - Next word request sent successfully.
+2025-01-24 22:43:10,330 - WARNING - Polish translation not found for word_id 1634.
+2025-01-24 22:43:10,330 - DEBUG - Processing word ID 1634: Default Polish Translation
+2025-01-24 22:43:10,344 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:10,344 - INFO - Answer saved for word ID 1634: Default Polish Translation
+2025-01-24 22:43:10,344 - DEBUG - Save answer response for word ID 1634: {'id': '1634', 'word': 'silly', 'speech_part': 'przymiotnik', 'usage_example': 'How could you be so silly?', 'translations': 'g³upi; bezmyœlny', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': '1551', 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': 'B1', 'cefr_approx': 'A1', 'audio_file_available': '1', 'audio_filename': 'silly.mp3', 'global_id': '1634', 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'silly'}
+2025-01-24 22:43:10,344 - INFO - Answered correctly on word ID 1634: Default Polish Translation
+2025-01-24 22:43:10,344 - INFO - Word ID 1634 not added to solved_words. Grade: 0
+2025-01-24 22:43:10,344 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:11,360 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:11,361 - INFO - Next word request sent successfully.
+2025-01-24 22:43:11,361 - DEBUG - Processing word ID 186149: reviewer
+2025-01-24 22:43:11,379 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:11,379 - INFO - Answer saved for word ID 186149: reviewer
+2025-01-24 22:43:11,379 - DEBUG - Save answer response for word ID 186149: {'id': '186149', 'word': 'reviewer', 'speech_part': 'rzeczownik', 'usage_example': 'I see myself in the future as a journal reviewer.', 'translations': 'krytyk, recenzent', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'reviewer.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'reviewer'}
+2025-01-24 22:43:11,379 - INFO - Answered correctly on word ID 186149: reviewer
+2025-01-24 22:43:11,379 - INFO - Word ID 186149 added to solved_words.
+2025-01-24 22:43:11,379 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:12,397 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:12,397 - INFO - Next word request sent successfully.
+2025-01-24 22:43:12,397 - DEBUG - Processing word ID 185950: national newspaper
+2025-01-24 22:43:12,416 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:12,416 - INFO - Answer saved for word ID 185950: national newspaper
+2025-01-24 22:43:12,416 - DEBUG - Save answer response for word ID 185950: {'id': '185950', 'word': 'national newspaper', 'speech_part': 'rzeczownik', 'usage_example': 'Have you seen the front page of the national newspaper?', 'translations': 'gazeta ogólnokrajowa', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'national newspaper.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'national newspaper'}
+2025-01-24 22:43:12,417 - INFO - Answered correctly on word ID 185950: national newspaper
+2025-01-24 22:43:12,417 - INFO - Word ID 185950 added to solved_words.
+2025-01-24 22:43:12,417 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:13,433 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:13,434 - INFO - Next word request sent successfully.
+2025-01-24 22:43:13,434 - DEBUG - Processing word ID 186150: not good enough
+2025-01-24 22:43:13,449 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:13,450 - INFO - Answer saved for word ID 186150: not good enough
+2025-01-24 22:43:13,450 - DEBUG - Save answer response for word ID 186150: {'id': '186150', 'word': 'not good enough', 'speech_part': 'przymiotnik', 'usage_example': "She's not good enough to participate in this contest.", 'translations': 'nie doœæ dobry', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'not good enough.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'not good enough'}
+2025-01-24 22:43:13,450 - INFO - Answered correctly on word ID 186150: not good enough
+2025-01-24 22:43:13,450 - INFO - Word ID 186150 added to solved_words.
+2025-01-24 22:43:13,450 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:14,465 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:14,466 - INFO - Next word request sent successfully.
+2025-01-24 22:43:14,466 - DEBUG - Processing word ID 186147: troll
+2025-01-24 22:43:14,489 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:14,490 - INFO - Answer saved for word ID 186147: troll
+2025-01-24 22:43:14,490 - DEBUG - Save answer response for word ID 186147: {'id': '186147', 'word': 'troll', 'speech_part': 'rzeczownik', 'usage_example': 'The Internet is full of trolls who only spread negativity.', 'translations': 'troll (osoba umieszczaj¹ca z³oœliwe komentarze w sieci)', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'troll.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'trolls'}
+2025-01-24 22:43:14,490 - INFO - Answered correctly on word ID 186147: troll
+2025-01-24 22:43:14,490 - INFO - Word ID 186147 added to solved_words.
+2025-01-24 22:43:14,490 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:15,505 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:15,505 - INFO - Next word request sent successfully.
+2025-01-24 22:43:15,505 - DEBUG - Processing word ID 185944: big top
+2025-01-24 22:43:15,528 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:43:15,528 - INFO - Answer saved for word ID 185944: big top
+2025-01-24 22:43:15,528 - DEBUG - Save answer response for word ID 185944: {'id': '185944', 'word': 'big top', 'speech_part': 'rzeczownik', 'usage_example': 'A big top is a main tent in circus.', 'translations': 'namiot cyrkowy', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'big top.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'big top'}
+2025-01-24 22:43:15,529 - INFO - Answered correctly on word ID 185944: big top
+2025-01-24 22:43:15,529 - INFO - Word ID 185944 added to solved_words.
+2025-01-24 22:43:15,529 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:43:16,550 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:43:16,551 - INFO - Next word request sent successfully.
+2025-01-24 22:43:16,551 - INFO - Session completed. Workdays this week: 2
+2025-01-24 22:43:16,552 - INFO - Loaded 3 solved words from 'solved_words.json'.
+2025-01-24 22:51:09,932 - INFO - Loaded 1 accounts from 'accounts.json'.
+2025-01-24 22:51:09,932 - INFO - InstalingClient initialized with chance=20, min_delay=1, max_delay=1
+2025-01-24 22:51:09,934 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 22:51:09,977 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 22:51:09,993 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 22:51:10,211 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 22:51:10,212 - INFO - Login request sent successfully.
+2025-01-24 22:51:10,212 - INFO - Logged in successfully as student_id=2007164
+2025-01-24 22:51:10,214 - INFO - Session completed: True
+2025-01-24 22:51:10,226 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 22:51:10,227 - INFO - Session initiated successfully.
+2025-01-24 22:51:10,244 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 22:51:10,244 - INFO - Words to repeat retrieved successfully.
+2025-01-24 22:51:10,244 - INFO - Retrieved 10 words to repeat.
+2025-01-24 22:51:10,244 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:11,261 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:11,261 - INFO - Next word request sent successfully.
+2025-01-24 22:51:11,261 - DEBUG - Processing word ID 186150: not good enough
+2025-01-24 22:51:11,278 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:11,278 - INFO - Answer saved for word ID 186150: not good enoguh
+2025-01-24 22:51:11,278 - DEBUG - Save answer response for word ID 186150: {'id': '186150', 'speech_part': 'przymiotnik', 'usage_example': "She's ___ ____ ______ to participate in this contest.", 'translations': 'nie doœæ dobry', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'not good enough.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'not good enough'}
+2025-01-24 22:51:11,278 - WARNING - Mistake made on word ID 186150: not good enoguh
+2025-01-24 22:51:11,278 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:12,292 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:12,292 - INFO - Next word request sent successfully.
+2025-01-24 22:51:12,292 - DEBUG - Processing word ID 186150: not good enough
+2025-01-24 22:51:12,315 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:12,315 - INFO - Answer saved for word ID 186150: not good enoughd
+2025-01-24 22:51:12,315 - DEBUG - Save answer response for word ID 186150: {'id': '186150', 'word': 'not good enough', 'speech_part': 'przymiotnik', 'usage_example': "She's not good enough to participate in this contest.", 'translations': 'nie doœæ dobry', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'not good enough.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'not good enough'}
+2025-01-24 22:51:12,316 - WARNING - Mistake made on word ID 186150: not good enoughd
+2025-01-24 22:51:12,316 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:13,333 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:13,333 - INFO - Next word request sent successfully.
+2025-01-24 22:51:13,333 - DEBUG - Processing word ID 185950: national newspaper
+2025-01-24 22:51:13,362 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:13,362 - INFO - Answer saved for word ID 185950: national newspaperb
+2025-01-24 22:51:13,363 - DEBUG - Save answer response for word ID 185950: {'id': '185950', 'speech_part': 'rzeczownik', 'usage_example': 'Have you seen the front page of the ________ _________?', 'translations': 'gazeta ogólnokrajowa', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'national newspaper.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 4, 'has_audio': '1', 'answershow': 'national newspaper'}
+2025-01-24 22:51:13,363 - WARNING - Mistake made on word ID 185950: national newspaperb
+2025-01-24 22:51:13,363 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:14,377 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:14,377 - INFO - Next word request sent successfully.
+2025-01-24 22:51:14,377 - DEBUG - Processing word ID 185950: national newspaper
+2025-01-24 22:51:14,398 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:14,398 - INFO - Answer saved for word ID 185950: national newspaper
+2025-01-24 22:51:14,398 - DEBUG - Save answer response for word ID 185950: {'id': '185950', 'word': 'national newspaper', 'speech_part': 'rzeczownik', 'usage_example': 'Have you seen the front page of the national newspaper?', 'translations': 'gazeta ogólnokrajowa', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'national newspaper.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'national newspaper'}
+2025-01-24 22:51:14,398 - INFO - Answered correctly on word ID 185950: national newspaper
+2025-01-24 22:51:14,398 - INFO - Word ID 185950 added to solved_words.
+2025-01-24 22:51:14,398 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:15,900 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:15,900 - INFO - Next word request sent successfully.
+2025-01-24 22:51:15,900 - WARNING - Polish translation not found for word_id 1056.
+2025-01-24 22:51:15,900 - DEBUG - Processing word ID 1056: Default Polish Translation
+2025-01-24 22:51:15,915 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:15,915 - INFO - Answer saved for word ID 1056: Default Polish Translation
+2025-01-24 22:51:15,915 - DEBUG - Save answer response for word ID 1056: {'id': '1056', 'word': 'colourful', 'speech_part': 'przymiotnik', 'usage_example': 'Her room was nice, with a colourful wallpaper on the walls.', 'translations': 'kolorowy', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': '595', 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': 'C1', 'cefr_approx': 'A1', 'audio_file_available': '1', 'audio_filename': 'colourful.mp3', 'global_id': '1056', 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'colourful'}
+2025-01-24 22:51:15,916 - INFO - Answered correctly on word ID 1056: Default Polish Translation
+2025-01-24 22:51:15,916 - INFO - Word ID 1056 not added to solved_words. Grade: 0
+2025-01-24 22:51:15,916 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:16,934 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:16,934 - INFO - Next word request sent successfully.
+2025-01-24 22:51:16,934 - DEBUG - Processing word ID 185947: runway
+2025-01-24 22:51:16,950 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:16,951 - INFO - Answer saved for word ID 185947: runway
+2025-01-24 22:51:16,951 - DEBUG - Save answer response for word ID 185947: {'id': '185947', 'word': 'runway', 'speech_part': 'rzeczownik', 'usage_example': 'Many models are complaining about walking down the runway.', 'translations': 'wybieg', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'runway.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'runway'}
+2025-01-24 22:51:16,951 - INFO - Answered correctly on word ID 185947: runway
+2025-01-24 22:51:16,951 - INFO - Word ID 185947 added to solved_words.
+2025-01-24 22:51:16,951 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:18,486 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:18,487 - INFO - Next word request sent successfully.
+2025-01-24 22:51:18,487 - WARNING - Polish translation not found for word_id 1772.
+2025-01-24 22:51:18,487 - DEBUG - Processing word ID 1772: Default Polish Translation
+2025-01-24 22:51:18,502 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:18,502 - INFO - Answer saved for word ID 1772: Default Polish Translation
+2025-01-24 22:51:18,502 - DEBUG - Save answer response for word ID 1772: {'id': '1772', 'word': 'unfair', 'speech_part': 'przymiotnik', 'usage_example': "The students said that the teacher's decisions were unfair.", 'translations': 'nieuczciwy; niesprawiedliwy; nie fair', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': '1734', 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': 'B2', 'cefr_approx': 'A1', 'audio_file_available': '1', 'audio_filename': 'unfair.mp3', 'global_id': '1772', 'public': '1', 'essential': '1', 'translation_from_id': None, 'grade': 0, 'has_audio': '1', 'answershow': 'unfair'}
+2025-01-24 22:51:18,503 - INFO - Answered correctly on word ID 1772: Default Polish Translation
+2025-01-24 22:51:18,503 - INFO - Word ID 1772 not added to solved_words. Grade: 0
+2025-01-24 22:51:18,503 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:19,519 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:19,519 - INFO - Next word request sent successfully.
+2025-01-24 22:51:19,519 - DEBUG - Processing word ID 186149: reviewer
+2025-01-24 22:51:19,542 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:19,542 - INFO - Answer saved for word ID 186149: reviewer
+2025-01-24 22:51:19,542 - DEBUG - Save answer response for word ID 186149: {'id': '186149', 'word': 'reviewer', 'speech_part': 'rzeczownik', 'usage_example': 'I see myself in the future as a journal reviewer.', 'translations': 'krytyk, recenzent', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'reviewer.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'reviewer'}
+2025-01-24 22:51:19,542 - INFO - Answered correctly on word ID 186149: reviewer
+2025-01-24 22:51:19,543 - INFO - Word ID 186149 added to solved_words.
+2025-01-24 22:51:19,543 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:20,559 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:20,559 - INFO - Next word request sent successfully.
+2025-01-24 22:51:20,559 - DEBUG - Processing word ID 185944: big top
+2025-01-24 22:51:20,580 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:20,580 - INFO - Answer saved for word ID 185944: big top
+2025-01-24 22:51:20,580 - DEBUG - Save answer response for word ID 185944: {'id': '185944', 'word': 'big top', 'speech_part': 'rzeczownik', 'usage_example': 'A big top is a main tent in circus.', 'translations': 'namiot cyrkowy', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'big top.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'big top'}
+2025-01-24 22:51:20,581 - INFO - Answered correctly on word ID 185944: big top
+2025-01-24 22:51:20,581 - INFO - Word ID 185944 added to solved_words.
+2025-01-24 22:51:20,581 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:21,598 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:21,598 - INFO - Next word request sent successfully.
+2025-01-24 22:51:21,598 - DEBUG - Processing word ID 186147: troll
+2025-01-24 22:51:21,618 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:21,618 - INFO - Answer saved for word ID 186147: troll
+2025-01-24 22:51:21,618 - DEBUG - Save answer response for word ID 186147: {'id': '186147', 'word': 'troll', 'speech_part': 'rzeczownik', 'usage_example': 'The Internet is full of trolls who only spread negativity.', 'translations': 'troll (osoba umieszczaj¹ca z³oœliwe komentarze w sieci)', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'troll.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'trolls'}
+2025-01-24 22:51:21,618 - INFO - Answered correctly on word ID 186147: troll
+2025-01-24 22:51:21,618 - INFO - Word ID 186147 added to solved_words.
+2025-01-24 22:51:21,618 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:22,635 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:22,636 - INFO - Next word request sent successfully.
+2025-01-24 22:51:22,636 - DEBUG - Processing word ID 185946: card trick
+2025-01-24 22:51:22,655 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:22,656 - INFO - Answer saved for word ID 185946: card trick
+2025-01-24 22:51:22,656 - DEBUG - Save answer response for word ID 185946: {'id': '185946', 'word': 'card trick', 'speech_part': 'rzeczownik', 'usage_example': 'Over the years, I have come up with many card trick ideas.', 'translations': 'sztuczka karciana', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'card trick.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'card trick'}
+2025-01-24 22:51:22,656 - INFO - Answered correctly on word ID 185946: card trick
+2025-01-24 22:51:22,656 - INFO - Word ID 185946 added to solved_words.
+2025-01-24 22:51:22,657 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:23,673 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:23,674 - INFO - Next word request sent successfully.
+2025-01-24 22:51:23,674 - DEBUG - Processing word ID 185952: crime series
+2025-01-24 22:51:23,691 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:23,691 - INFO - Answer saved for word ID 185952: crime series
+2025-01-24 22:51:23,691 - DEBUG - Save answer response for word ID 185952: {'id': '185952', 'word': 'crime series', 'speech_part': 'rzeczownik', 'usage_example': 'Sherlock Holmes is a popular crime series known all over the world.', 'translations': 'serial kryminalny', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'crime series.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'crime series'}
+2025-01-24 22:51:23,692 - INFO - Answered correctly on word ID 185952: crime series
+2025-01-24 22:51:23,692 - INFO - Word ID 185952 added to solved_words.
+2025-01-24 22:51:23,692 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:24,707 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:24,707 - INFO - Next word request sent successfully.
+2025-01-24 22:51:24,707 - DEBUG - Processing word ID 186150: not good enough
+2025-01-24 22:51:24,727 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 22:51:24,727 - INFO - Answer saved for word ID 186150: not good enough
+2025-01-24 22:51:24,728 - DEBUG - Save answer response for word ID 186150: {'id': '186150', 'word': 'not good enough', 'speech_part': 'przymiotnik', 'usage_example': "She's not good enough to participate in this contest.", 'translations': 'nie doœæ dobry', 'kategoria': '', 'teacher_id': None, 'is_closed': '', 'exp_easier_count': None, 'language_id': '1', 'meaning': None, 'xls_id': None, 'article': '', 'ling_state': '', 'ling_comment': '', 'adult_only': '', 'cefr': '', 'cefr_approx': '', 'audio_file_available': '1', 'audio_filename': 'not good enough.mp3', 'global_id': None, 'public': '1', 'essential': '', 'translation_from_id': None, 'grade': 1, 'has_audio': '1', 'answershow': 'not good enough'}
+2025-01-24 22:51:24,728 - INFO - Answered correctly on word ID 186150: not good enough
+2025-01-24 22:51:24,728 - INFO - Word ID 186150 added to solved_words.
+2025-01-24 22:51:24,728 - DEBUG - Sleeping for 1.00 seconds.
+2025-01-24 22:51:25,749 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 22:51:25,750 - INFO - Next word request sent successfully.
+2025-01-24 22:51:25,750 - INFO - Session completed. Workdays this week: 2
+2025-01-24 22:51:25,756 - INFO - Loaded 3 solved words from 'solved_words.json'.
+2025-01-24 22:51:25,757 - DEBUG - -> save_solved_words start
+2025-01-24 23:02:11,511 - INFO - Wczytano 1 konto/kont(a) z 'accounts.json'.
+2025-01-24 23:02:11,511 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:02:11,513 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:02:11,554 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:02:11,571 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:02:11,779 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 23:02:11,779 - INFO - Zalogowano student_id=2007164
+2025-01-24 23:02:11,793 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:02:11,808 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:02:12,827 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:12,843 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:13,857 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:13,881 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:14,898 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:14,918 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:15,931 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:15,953 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:16,971 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:16,990 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:18,004 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:18,025 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:19,471 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:19,486 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:20,505 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:20,524 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:21,540 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:21,560 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:22,576 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:22,595 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:23,613 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:23,633 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:02:24,653 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:02:24,654 - INFO - Wczytano 3 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:02:24,655 - INFO - Zapisano 9 s³ówek do 'solved_words.json'.
+2025-01-24 23:02:24,661 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-24 23:03:22,992 - INFO - Wczytano 3 konto/kont(a) z 'accounts.json'.
+2025-01-24 23:03:22,993 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:03:22,995 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:03:23,040 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:03:23,264 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:03:23,450 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 23:03:23,450 - INFO - Zalogowano student_id=2007164
+2025-01-24 23:03:23,464 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:03:23,481 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:03:24,499 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:24,515 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:25,529 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:25,551 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:26,566 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:26,587 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:27,602 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:27,626 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:29,092 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:29,106 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:30,123 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:30,143 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:31,161 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:31,179 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:32,194 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:32,214 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:33,230 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:33,251 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:34,269 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:34,287 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:35,303 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:35,322 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:36,336 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:36,357 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:37,385 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:37,386 - INFO - Wczytano 9 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:03:37,387 - INFO - Zapisano 12 s³ówek do 'solved_words.json'.
+2025-01-24 23:03:37,388 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-24 23:03:37,388 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:03:37,389 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:03:37,423 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:03:37,440 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:03:37,658 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007009 HTTP/1.1" 200 None
+2025-01-24 23:03:37,659 - INFO - Zalogowano student_id=2007009
+2025-01-24 23:03:37,673 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:03:37,689 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007009&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:03:38,706 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:38,723 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:39,738 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:39,760 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:40,779 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:40,795 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:41,810 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:41,832 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:42,851 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:42,868 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:43,887 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:43,904 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:44,923 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:44,939 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:45,959 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:45,974 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:46,993 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:47,015 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:48,031 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:48,051 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:49,071 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:49,087 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:50,106 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:50,125 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:51,144 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:51,159 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:52,179 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:52,180 - INFO - Wczytano 12 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:03:52,180 - INFO - Zapisano 20 s³ówek do 'solved_words.json'.
+2025-01-24 23:03:52,181 - INFO - Zapisano wynik sesji dla 'ldsiod561' do 'session_results.json'.
+2025-01-24 23:03:52,182 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:03:52,182 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:03:52,215 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:03:52,229 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:03:52,488 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=1709147 HTTP/1.1" 200 None
+2025-01-24 23:03:52,489 - INFO - Zalogowano student_id=1709147
+2025-01-24 23:03:52,503 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:03:52,521 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=1709147&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:03:53,536 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:53,556 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:54,570 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:54,591 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:55,608 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:55,626 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:56,640 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:56,664 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:57,679 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:57,700 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:58,714 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:58,735 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:03:59,750 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:03:59,770 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:00,785 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:00,805 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:01,821 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:01,840 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:02,855 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:02,875 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:03,888 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:03,906 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:04,926 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:04,927 - INFO - Wczytano 20 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:04:04,928 - INFO - Zapisano 28 s³ówek do 'solved_words.json'.
+2025-01-24 23:04:04,928 - INFO - Zapisano wynik sesji dla 'Mi³osz_K3754' do 'session_results.json'.
+2025-01-24 23:04:11,852 - INFO - Wczytano 3 konto/kont(a) z 'accounts.json'.
+2025-01-24 23:04:11,852 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:04:11,854 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:04:11,886 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:04:11,900 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:04:12,095 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 23:04:12,096 - INFO - Zalogowano student_id=2007164
+2025-01-24 23:04:12,109 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:04:12,125 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:04:13,140 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:13,158 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:14,172 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:14,196 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:15,212 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:15,230 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:16,247 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:16,266 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:17,279 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:17,302 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:18,317 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:18,339 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:19,880 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:19,894 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:20,911 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:20,930 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:21,947 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:21,967 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:22,983 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:23,002 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:24,022 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:24,042 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:25,057 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:25,076 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:26,097 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:26,098 - INFO - Wczytano 28 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:04:26,099 - INFO - Zapisano 28 s³ówek do 'solved_words.json'.
+2025-01-24 23:04:26,100 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-24 23:04:26,100 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:04:26,101 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:04:26,139 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:04:26,152 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:04:26,385 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007009 HTTP/1.1" 200 None
+2025-01-24 23:04:26,386 - INFO - Zalogowano student_id=2007009
+2025-01-24 23:04:26,399 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:04:26,417 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007009&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:04:27,631 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:27,645 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:28,991 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:29,005 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:30,023 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:30,042 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:31,056 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:31,077 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:32,096 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:32,113 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:33,127 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:33,149 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:34,165 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:34,182 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:35,198 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:35,219 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:36,237 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:36,255 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:37,512 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:37,527 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:38,545 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:38,565 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:39,583 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:39,603 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:40,917 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:40,931 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:41,951 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:41,967 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:42,987 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:43,003 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:44,020 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:44,040 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:45,066 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:45,066 - INFO - Wczytano 28 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:04:45,067 - INFO - Zapisano 28 s³ówek do 'solved_words.json'.
+2025-01-24 23:04:45,068 - INFO - Zapisano wynik sesji dla 'ldsiod561' do 'session_results.json'.
+2025-01-24 23:04:45,068 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:04:45,069 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:04:45,104 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:04:45,117 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:04:45,297 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=1709147 HTTP/1.1" 200 None
+2025-01-24 23:04:45,297 - INFO - Zalogowano student_id=1709147
+2025-01-24 23:04:45,311 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:04:45,328 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=1709147&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:04:46,344 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:46,365 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:47,380 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:47,400 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:48,415 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:48,435 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:49,451 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:49,472 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:50,487 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:50,509 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:51,525 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:51,546 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:52,563 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:52,585 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:53,603 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:53,619 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:54,635 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:54,655 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:55,672 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:55,692 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:56,707 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:56,727 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:04:57,748 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:04:57,749 - INFO - Wczytano 28 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:04:57,750 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-24 23:04:57,751 - INFO - Zapisano wynik sesji dla 'Mi³osz_K3754' do 'session_results.json'.
+2025-01-24 23:05:05,233 - INFO - Wczytano 3 konto/kont(a) z 'accounts.json'.
+2025-01-24 23:05:05,234 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:05:05,236 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:05:05,281 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:05:05,297 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:05:05,541 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 23:05:05,541 - INFO - Zalogowano student_id=2007164
+2025-01-24 23:05:05,556 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:05:05,575 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:05:06,590 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:06,613 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:07,629 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:07,648 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:08,663 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:08,684 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:09,700 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:09,720 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:10,735 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:10,758 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:11,774 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:11,795 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:12,812 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:12,829 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:13,846 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:13,862 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:14,879 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:14,895 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:15,912 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:15,930 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:16,945 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:16,966 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:17,988 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:17,989 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:05:17,990 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-24 23:05:17,991 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-24 23:05:17,991 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:05:17,992 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:05:18,025 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:05:18,041 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:05:18,298 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007009 HTTP/1.1" 200 None
+2025-01-24 23:05:18,299 - INFO - Zalogowano student_id=2007009
+2025-01-24 23:05:18,313 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:05:18,331 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007009&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:05:19,347 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:19,370 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:20,384 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:20,404 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:21,621 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:21,638 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:22,657 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:22,676 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:23,693 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:23,712 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:24,731 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:24,750 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:25,768 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:25,786 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:26,805 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:26,825 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:27,845 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:27,860 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:28,879 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:28,895 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:30,147 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:30,161 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:31,178 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:31,197 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:32,446 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:32,461 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:33,675 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:33,690 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:34,974 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:34,989 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:36,009 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:36,026 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:37,045 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:37,062 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:38,083 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:38,084 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:05:38,084 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-24 23:05:38,086 - INFO - Zapisano wynik sesji dla 'ldsiod561' do 'session_results.json'.
+2025-01-24 23:05:38,086 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:05:38,087 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:05:38,126 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:05:38,144 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:05:38,433 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=1709147 HTTP/1.1" 200 None
+2025-01-24 23:05:38,434 - INFO - Zalogowano student_id=1709147
+2025-01-24 23:05:38,448 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:05:38,466 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=1709147&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:05:39,484 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:39,499 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:40,513 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:40,537 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:41,554 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:41,572 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:42,599 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:42,615 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:43,630 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:43,655 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:44,672 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:44,692 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:45,709 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:45,728 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:46,745 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:46,765 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:47,783 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:47,803 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:49,302 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:49,316 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:50,333 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:50,353 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:51,367 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:51,385 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:05:52,405 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:05:52,406 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:05:52,407 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-24 23:05:52,408 - INFO - Zapisano wynik sesji dla 'Mi³osz_K3754' do 'session_results.json'.
+2025-01-24 23:06:14,770 - INFO - Wczytano 3 konto/kont(a) z 'accounts.json'.
+2025-01-24 23:06:14,771 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:06:14,772 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:06:14,807 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:06:14,821 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:06:15,067 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 23:06:15,067 - INFO - Zalogowano student_id=2007164
+2025-01-24 23:06:15,082 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:06:15,097 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:06:16,113 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:16,131 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:17,144 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:17,167 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:18,184 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:18,203 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:19,218 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:19,241 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:20,258 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:20,277 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:21,651 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:21,667 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:22,683 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:22,703 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:24,187 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:24,201 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:25,218 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:25,236 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:26,252 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:26,272 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:27,288 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:27,307 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:28,987 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:29,001 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:30,020 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:30,035 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:31,050 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:31,073 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:32,094 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:32,095 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:06:32,096 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-24 23:06:32,098 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-24 23:06:32,098 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:06:32,099 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:06:32,137 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:06:32,153 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:06:32,364 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007009 HTTP/1.1" 200 None
+2025-01-24 23:06:32,364 - INFO - Zalogowano student_id=2007009
+2025-01-24 23:06:32,378 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:06:32,395 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007009&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:06:33,413 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:33,428 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:34,441 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:34,464 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:35,479 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:35,500 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:36,514 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:36,534 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:37,552 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:37,571 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:38,589 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:38,606 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:39,625 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:39,643 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:40,662 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:40,680 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:41,700 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:41,716 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:42,734 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:42,751 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:43,770 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:43,789 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:44,806 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:44,825 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:46,077 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:46,090 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:47,108 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:47,126 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:48,145 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:48,146 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:06:48,147 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-24 23:06:48,148 - INFO - Zapisano wynik sesji dla 'ldsiod561' do 'session_results.json'.
+2025-01-24 23:06:48,148 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:06:48,149 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:06:48,181 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:06:48,197 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:06:48,398 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=1709147 HTTP/1.1" 200 None
+2025-01-24 23:06:48,399 - INFO - Zalogowano student_id=1709147
+2025-01-24 23:06:48,413 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-24 23:06:48,431 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=1709147&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-24 23:06:49,449 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:49,467 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:50,482 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:50,505 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:51,522 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:51,540 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:52,553 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:52,578 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:53,594 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:53,617 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:54,634 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:54,650 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:55,666 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:55,690 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:56,708 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:56,727 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:57,746 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:57,765 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:58,782 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:58,812 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:06:59,826 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:06:59,848 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-24 23:07:00,868 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-24 23:07:00,869 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-24 23:07:00,869 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-24 23:07:00,870 - INFO - Zapisano wynik sesji dla 'Mi³osz_K3754' do 'session_results.json'.
+2025-01-24 23:14:54,576 - INFO - Wczytano 3 konto/kont(a) z 'accounts.json'.
+2025-01-24 23:14:54,576 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:14:54,577 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:14:54,619 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:14:54,633 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:14:54,866 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-24 23:14:54,867 - INFO - Zalogowano student_id=2007164
+2025-01-24 23:14:54,871 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-24 23:14:54,871 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:14:54,872 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:14:54,901 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:14:54,917 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:14:55,107 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007009 HTTP/1.1" 200 None
+2025-01-24 23:14:55,108 - INFO - Zalogowano student_id=2007009
+2025-01-24 23:14:55,111 - INFO - Zapisano wynik sesji dla 'ldsiod561' do 'session_results.json'.
+2025-01-24 23:14:55,112 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-24 23:14:55,112 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-24 23:14:55,144 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-24 23:14:55,161 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-24 23:14:55,344 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=1709147 HTTP/1.1" 200 None
+2025-01-24 23:14:55,345 - INFO - Zalogowano student_id=1709147
+2025-01-24 23:14:55,348 - INFO - Zapisano wynik sesji dla 'Mi³osz_K3754' do 'session_results.json'.
+2025-01-30 21:26:20,975 - INFO - Wczytano 3 konto/kont(a) z 'accounts.json'.
+2025-01-30 21:26:20,975 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-30 21:26:20,977 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-30 21:26:21,021 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-30 21:26:21,034 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-30 21:26:21,280 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-30 21:26:21,280 - INFO - Zalogowano student_id=2007164
+2025-01-30 21:26:21,299 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-30 21:26:21,314 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-30 21:26:22,331 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:26:22,349 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:26:23,362 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:26:23,385 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:26:24,402 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:26:24,420 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:26:25,435 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:26:25,456 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:26:26,472 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:26:26,492 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:45,344 - INFO - Wczytano 2 konto/kont(a) z 'accounts.json'.
+2025-01-30 21:27:45,345 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-30 21:27:45,347 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-30 21:27:45,387 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-30 21:27:45,401 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-30 21:27:45,696 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-30 21:27:45,696 - INFO - Zalogowano student_id=2007164
+2025-01-30 21:27:45,711 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-30 21:27:45,726 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-30 21:27:46,741 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:46,760 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:47,774 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:47,797 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:48,813 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:48,832 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:49,845 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:49,866 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:50,881 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:50,902 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:51,921 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:51,935 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:52,951 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:52,972 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:53,987 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:54,009 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:55,023 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:55,045 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:56,066 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:56,074 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-30 21:27:56,075 - INFO - Zapisano 30 s³ówek do 'solved_words.json'.
+2025-01-30 21:27:56,082 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-30 21:27:56,082 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-30 21:27:56,083 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-30 21:27:56,117 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-30 21:27:56,133 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-30 21:27:56,420 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2021755 HTTP/1.1" 200 None
+2025-01-30 21:27:56,420 - INFO - Zalogowano student_id=2021755
+2025-01-30 21:27:56,434 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-30 21:27:56,453 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2021755&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-30 21:27:57,478 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:57,498 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:58,512 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:58,534 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:27:59,550 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:27:59,571 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:00,586 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:00,605 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:01,621 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:01,642 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:02,658 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:02,678 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:03,695 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:03,712 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:04,729 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:04,751 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:05,767 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:05,783 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:06,799 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:06,820 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:07,838 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:07,855 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:08,872 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:08,892 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:09,908 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:09,929 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:10,945 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:10,966 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:11,983 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:12,001 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:13,019 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:13,036 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:14,053 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:14,073 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:15,089 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:15,110 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:16,128 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:16,145 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:17,161 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:17,180 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:18,198 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:18,220 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:19,239 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:19,257 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:20,273 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:20,295 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:21,314 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:21,333 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:22,351 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:22,374 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:23,391 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:23,409 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:24,427 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:24,446 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:25,463 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:25,481 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:26,499 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:26,516 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:27,533 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:27,553 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:28,572 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:28,588 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:29,604 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:29,625 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:30,639 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:30,659 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-30 21:28:31,681 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-30 21:28:31,683 - INFO - Wczytano 30 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-30 21:28:31,683 - INFO - Zapisano 60 s³ówek do 'solved_words.json'.
+2025-01-30 21:28:31,684 - INFO - Zapisano wynik sesji dla 'pea849390' do 'session_results.json'.
+2025-01-31 23:52:48,809 - INFO - Wczytano 2 konto/kont(a) z 'accounts.json'.
+2025-01-31 23:52:48,809 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-31 23:52:48,812 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-31 23:52:48,852 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-31 23:52:48,868 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-31 23:52:49,076 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-01-31 23:52:49,077 - INFO - Zalogowano student_id=2007164
+2025-01-31 23:52:49,091 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-31 23:52:49,108 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-31 23:52:50,125 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:50,148 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:51,164 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:51,186 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:52,201 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:52,226 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:53,242 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:53,263 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:54,278 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:54,301 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:55,316 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:55,337 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:56,351 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:56,375 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:57,391 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:57,410 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:58,427 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:58,447 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:52:59,464 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:52:59,482 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:00,497 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:00,516 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:01,538 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:01,545 - INFO - Wczytano 60 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-31 23:53:01,547 - INFO - Zapisano 60 s³ówek do 'solved_words.json'.
+2025-01-31 23:53:01,548 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-01-31 23:53:01,548 - INFO - [Init] chance=20, delay=[1,1]
+2025-01-31 23:53:01,549 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-01-31 23:53:01,580 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-01-31 23:53:01,598 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-01-31 23:53:01,943 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2021755 HTTP/1.1" 200 None
+2025-01-31 23:53:01,943 - INFO - Zalogowano student_id=2021755
+2025-01-31 23:53:01,957 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-01-31 23:53:01,977 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2021755&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-01-31 23:53:02,999 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:03,019 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:04,037 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:04,056 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:05,072 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:05,095 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:06,110 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:06,129 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:07,145 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:07,168 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:08,184 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:08,205 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:09,222 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:09,242 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:10,259 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:10,280 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:11,296 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:11,320 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:12,336 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:12,359 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:13,375 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:13,396 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:14,411 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:14,428 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:15,445 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:15,465 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:16,484 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:16,505 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:17,525 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:17,545 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:18,561 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:18,584 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:19,600 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:19,620 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:20,637 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:20,653 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:21,670 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:21,690 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:22,706 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:22,726 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:23,742 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:23,762 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:24,779 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:24,798 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:25,815 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:25,835 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:26,851 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:26,871 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:27,890 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:27,907 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:28,926 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:28,942 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:29,960 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:29,979 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:31,000 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:31,020 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:32,038 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:32,058 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:33,085 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:33,100 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:34,118 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:34,138 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:35,159 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:35,175 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:36,190 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:36,208 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-01-31 23:53:37,229 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-01-31 23:53:37,230 - INFO - Wczytano 60 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-01-31 23:53:37,231 - INFO - Zapisano 88 s³ówek do 'solved_words.json'.
+2025-01-31 23:53:37,232 - INFO - Zapisano wynik sesji dla 'pea849390' do 'session_results.json'.
+2025-02-01 23:58:47,020 - INFO - Wczytano 2 konto/kont(a) z 'accounts.json'.
+2025-02-01 23:58:47,020 - INFO - [Init] chance=20, delay=[1,1]
+2025-02-01 23:58:47,025 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-02-01 23:58:47,065 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-02-01 23:58:47,077 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-02-01 23:58:47,293 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-02-01 23:58:47,309 - INFO - Zalogowano student_id=2007164
+2025-02-01 23:58:47,309 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-02-01 23:58:47,309 - INFO - [Init] chance=20, delay=[1,1]
+2025-02-01 23:58:47,309 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-02-01 23:58:47,353 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-02-01 23:58:47,366 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-02-01 23:58:47,600 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2021755 HTTP/1.1" 200 None
+2025-02-01 23:58:47,600 - INFO - Zalogowano student_id=2021755
+2025-02-01 23:58:47,619 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-02-01 23:58:47,638 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2021755&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-02-01 23:58:48,659 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:48,674 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:49,681 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:49,713 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:50,732 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:50,750 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:51,766 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:51,788 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:52,806 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:52,811 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:53,835 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:53,859 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:54,876 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:54,891 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:55,914 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:55,933 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:56,946 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:56,964 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:57,981 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:57,993 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:58:59,015 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:58:59,030 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:00,049 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:00,066 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:01,084 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:01,103 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:02,121 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:02,128 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:03,154 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:03,173 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:04,191 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:04,206 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:05,229 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:05,246 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:06,251 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:06,278 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:07,300 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:07,318 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:08,336 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:08,356 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:09,374 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:09,389 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:10,407 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:10,426 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:11,446 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:11,462 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:12,480 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:12,497 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:13,515 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:13,535 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:14,552 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:14,571 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:15,591 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:15,607 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:16,626 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:16,641 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:17,660 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:17,680 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:18,701 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:18,720 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:19,737 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:19,755 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:20,779 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:20,798 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:21,812 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:21,833 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-01 23:59:22,851 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-01 23:59:22,863 - INFO - Wczytano 88 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-02-01 23:59:22,864 - INFO - Zapisano 116 s³ówek do 'solved_words.json'.
+2025-02-01 23:59:22,866 - INFO - Zapisano wynik sesji dla 'pea849390' do 'session_results.json'.
+2025-02-08 21:38:28,165 - INFO - Wczytano 2 konto/kont(a) z 'accounts.json'.
+2025-02-08 21:38:28,166 - INFO - [Init] chance=20, delay=[1,1]
+2025-02-08 21:38:28,169 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-02-08 21:38:28,214 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-02-08 21:38:28,228 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-02-08 21:38:28,420 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2007164 HTTP/1.1" 200 None
+2025-02-08 21:38:28,421 - INFO - Zalogowano student_id=2007164
+2025-02-08 21:38:28,434 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-02-08 21:38:28,452 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2007164&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-02-08 21:38:29,469 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:29,489 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:30,503 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:30,526 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:31,541 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:31,571 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:32,585 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:32,609 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:33,624 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:33,643 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:34,658 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:34,680 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:35,696 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:35,718 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:36,733 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:36,751 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:37,768 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:37,788 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:38,803 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:38,824 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:39,838 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:39,856 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:40,880 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:40,888 - INFO - Wczytano 116 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-02-08 21:38:40,889 - INFO - Zapisano 116 s³ówek do 'solved_words.json'.
+2025-02-08 21:38:40,898 - INFO - Zapisano wynik sesji dla 'janan2550' do 'session_results.json'.
+2025-02-08 21:38:40,898 - INFO - [Init] chance=20, delay=[1,1]
+2025-02-08 21:38:40,899 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-02-08 21:38:40,932 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-02-08 21:38:40,945 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-02-08 21:38:41,160 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2021755 HTTP/1.1" 200 None
+2025-02-08 21:38:41,160 - INFO - Zalogowano student_id=2021755
+2025-02-08 21:38:41,174 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-02-08 21:38:41,196 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2021755&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-02-08 21:38:42,220 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:42,239 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:43,254 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:43,275 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:44,292 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:44,314 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:45,329 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:45,353 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:46,370 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:46,394 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:47,409 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:47,427 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:48,444 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:48,464 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:49,480 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:49,498 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:50,516 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:50,536 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:51,553 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:51,570 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:52,587 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:52,611 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:53,633 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:53,653 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:54,671 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:54,688 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:55,704 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:55,723 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:56,740 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:56,760 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:57,776 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:57,796 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:58,813 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:58,831 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:38:59,848 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:38:59,868 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:00,884 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:00,905 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:01,922 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:01,939 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:02,955 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:02,976 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:03,993 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:04,010 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:05,030 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:05,050 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:06,069 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:06,089 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:07,108 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:07,124 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:08,144 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:08,171 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:09,190 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:09,210 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:10,231 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:10,253 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:11,273 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:11,291 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:12,309 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:12,329 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:13,347 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:13,363 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:14,381 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:14,400 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:15,415 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:15,433 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-08 21:39:16,465 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-08 21:39:16,476 - INFO - Wczytano 116 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-02-08 21:39:16,478 - INFO - Zapisano 128 s³ówek do 'solved_words.json'.
+2025-02-08 21:39:16,487 - INFO - Zapisano wynik sesji dla 'pea849390' do 'session_results.json'.
+2025-02-11 21:26:18,439 - INFO - Wczytano 2 konto/kont(a) z 'accounts.json'.
+2025-02-11 21:26:18,439 - INFO - [Init] chance=20, delay=[1,1]
+2025-02-11 21:26:18,439 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-02-11 21:26:18,494 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-02-11 21:26:18,509 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-02-11 21:26:18,849 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2409444 HTTP/1.1" 200 None
+2025-02-11 21:26:18,849 - INFO - Zalogowano student_id=2409444
+2025-02-11 21:26:18,859 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-02-11 21:26:18,887 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2409444&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-02-11 21:26:19,899 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:19,919 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:20,929 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:20,959 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:21,982 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:22,002 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:23,024 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:23,040 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:24,049 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:24,079 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:25,094 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:25,109 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:26,129 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:26,149 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:27,169 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:27,189 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:28,201 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:28,219 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:29,239 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:29,259 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:30,279 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:30,299 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:31,314 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:31,334 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:32,349 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:32,369 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:33,383 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:33,401 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:34,419 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:34,436 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:35,455 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:35,469 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:36,490 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:36,511 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:37,519 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:37,545 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:38,563 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:38,581 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:39,595 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:39,613 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:40,635 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:40,651 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:41,666 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:41,683 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:42,696 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:42,717 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:43,734 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:43,739 - INFO - Wczytano 128 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-02-11 21:26:43,740 - INFO - Zapisano 148 s³ówek do 'solved_words.json'.
+2025-02-11 21:26:43,740 - INFO - Zapisano wynik sesji dla '1to423203' do 'session_results.json'.
+2025-02-11 21:26:43,740 - INFO - [Init] chance=20, delay=[1,1]
+2025-02-11 21:26:43,740 - DEBUG - Starting new HTTPS connection (1): instaling.pl:443
+2025-02-11 21:26:43,781 - DEBUG - https://instaling.pl:443 "POST /teacher.php?page=teacherActions HTTP/1.1" 302 None
+2025-02-11 21:26:43,800 - DEBUG - https://instaling.pl:443 "GET /learning/dispatcher.php?from= HTTP/1.1" 302 None
+2025-02-11 21:26:44,253 - DEBUG - https://instaling.pl:443 "GET /student/pages/mainPage.php?student_id=2021755 HTTP/1.1" 200 None
+2025-02-11 21:26:44,254 - INFO - Zalogowano student_id=2021755
+2025-02-11 21:26:44,267 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/init_session.php HTTP/1.1" 200 None
+2025-02-11 21:26:44,288 - DEBUG - https://instaling.pl:443 "GET /learning/repeat_words_ajax.php?action=getWordsToRepeat&student_id=2021755&group_id=0&limit=300 HTTP/1.1" 200 None
+2025-02-11 21:26:45,305 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:45,324 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:46,339 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:46,360 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:47,374 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:47,401 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:48,418 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:48,436 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:49,452 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:49,471 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:50,487 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:50,509 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:51,524 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:51,542 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:52,559 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:52,579 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:53,601 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:53,618 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:54,634 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:54,653 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:55,671 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:55,689 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:56,700 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:56,724 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:57,741 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:57,760 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:58,779 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:58,794 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:26:59,814 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:26:59,833 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:00,849 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:00,859 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:01,886 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:01,905 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:02,923 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:02,943 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:03,961 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:03,979 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:04,999 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:05,019 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:06,039 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:06,056 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:07,076 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:07,091 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:08,109 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:08,129 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:09,147 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:09,160 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:10,179 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:10,195 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:11,212 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:11,230 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:12,254 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:12,271 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:13,290 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:13,307 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:14,324 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:14,344 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:15,369 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:15,385 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:16,403 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:16,420 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:17,437 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:17,457 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:18,474 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:18,497 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/save_answer.php HTTP/1.1" 200 None
+2025-02-11 21:27:19,517 - DEBUG - https://instaling.pl:443 "POST /ling2/server/actions/generate_next_word.php HTTP/1.1" 200 None
+2025-02-11 21:27:19,519 - INFO - Wczytano 148 rozwi¹zanych s³ówek z 'solved_words.json'.
+2025-02-11 21:27:19,521 - INFO - Zapisano 166 s³ówek do 'solved_words.json'.
+2025-02-11 21:27:19,522 - INFO - Zapisano wynik sesji dla 'pea849390' do 'session_results.json'.
